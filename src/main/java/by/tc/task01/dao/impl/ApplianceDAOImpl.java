@@ -3,13 +3,12 @@ package by.tc.task01.dao.impl;
 import by.tc.task01.dao.ApplianceDAO;
 import by.tc.task01.entity.Appliance;
 import by.tc.task01.entity.criteria.Criteria;
-import by.tc.task01.service.parser.XMLParserImpl;
-import by.tc.task01.service.parser.XMLParser;
+import by.tc.task01.dao.impl.parser.XMLParserImpl;
+import by.tc.task01.dao.impl.parser.XMLParser;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

@@ -2,7 +2,7 @@ package by.tc.task01.main;
 
 import by.tc.task01.entity.Appliance;
 import by.tc.task01.service.control.ApplianceController;
-import by.tc.task01.service.control.ControllerFactory;
+import by.tc.task01.service.control.factory.ControllerFactory;
 
 /**
  * класс для текстового представления данных о приборах
